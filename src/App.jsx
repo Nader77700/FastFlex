@@ -1,16 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Auth from './auth'
-import AdminDashboard from './admin'
-
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Auth />} />
-        <Route path="/admin" element={<AdminDashboard />} />
-      </Routes>
-    </BrowserRouter>
+    <div style={{ padding: "40px", textAlign: "center", fontSize: "24px", color: "#2b6cb0" }}>
+      ✅ الموقع شغال! أهلاً بك في FastFlex 🎉
+    </div>
   )
 }
-
-export default App
